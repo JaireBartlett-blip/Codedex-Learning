@@ -1,0 +1,10 @@
+// Write code below 💖
+
+
+const mass = 61;
+
+const height = 1.7;
+
+let bmi = (mass)/(height ** height);
+
+console.log("The BMI with this mass and height is " + bmi);

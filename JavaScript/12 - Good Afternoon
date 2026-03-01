@@ -1,0 +1,11 @@
+// Write code below 💖
+
+let hour = 12;
+
+if (hour < 12){
+  console.log("Good morning :)");
+  console.log("\nBrush your teeth, wash your face, and get dressed!");
+}else{
+  console.log("Good afternoon :)");
+  console.log("\nEat lunch, go to class, and visit the library!");
+}

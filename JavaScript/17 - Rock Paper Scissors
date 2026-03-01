@@ -1,0 +1,53 @@
+// Write code below 💖
+
+let player = 2;
+
+let cpu = Math.floor(Math.random() * 3);//Random # 0-2
+
+if (cpu == 0 && player == 0){
+  console.log("Player picked:     Rock");
+  console.log("Computer picked:   Rock");
+  console.log("Tie!")
+}else if (cpu == 0 && player == 1){
+  console.log("Player picked:     Paper");
+  console.log("Computer picked:   Rock");
+  console.log("Player wins!");
+}else if(cpu == 0 && player == 2){
+  console.log("Player picked:     Scissors");
+  console.log("Computer picked:   Rock");
+  console.log("Computer wins!");
+}else if (cpu == 1 && player == 0){
+  console.log("Player picked:     Rock");
+  console.log("Computer picked:   Paper");
+  console.log("Computer Wins!");
+}else if (cpu == 1 && player == 1){
+  console.log("Player picked:     Paper");
+  console.log("Computer picked:   Paper");
+  console.log("Tie!");
+}else if(cpu == 1 && player == 2){
+  console.log("Player picked:     Scissors");
+  console.log("Computer picked:   Paper");
+  console.log("Player Wins!");
+}else if(cpu == 2 && player == 0){
+  console.log("Player picked:     Rock");
+  console.log("Computer picked:   Scissors");
+  console.log("Player Wins!");
+}else if(cpu == 2 && player == 1){
+  console.log("Player picked:     Paper");
+  console.log("Computer picked:   Scissors");
+  console.log("Computer Wins!");
+}else if(cpu == 2 && player == 2){
+  console.log("Player picked:     Scissors");
+  console.log("Computer picked:   Scissors");
+  console.log("Tie!");
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+// Write code below 💖
+
+const musicPlaylist = [
+  "Tom Sawyer",
+  "Sabotage",
+  "I Wanna Dance With Somebody",
+  "Don't Speak",
+  "Bulls On Parade",
+  "Thriller",
+  "The Breaks",
+  "Brick",
+  "Aeroplane Over the Sea",
+  "Tubthumping"
+];
+
+console.log(musicPlaylist);
+
+musicPlaylist.shift();
+musicPlaylist.pop();
+
+musicPlaylist.push("In a Lake");
+
+musicPlaylist.unshift("Stateside");
+musicPlaylist.unshift("Love Song")
+console.log(musicPlaylist);
+

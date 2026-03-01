@@ -1,0 +1,10 @@
+// Write code below 💖
+
+const companyName = "Irina Foundation";
+const foundingYear = 2019;
+
+let isActive = true;
+let fundingAmount;
+
+
+console.log(companyName, foundingYear, isActive, fundingAmount);

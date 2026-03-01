@@ -1,0 +1,13 @@
+// Write code below 💖
+
+const firstName = "Jaire";
+const favColor = "Black";
+
+let currentLocation = "Philadelphia";
+let mood = "Angry";
+
+
+console.log(firstName, favColor, currentLocation, mood);
+
+mood = "Happy";
+console.log(mood); 

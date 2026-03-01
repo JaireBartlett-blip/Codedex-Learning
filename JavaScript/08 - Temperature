@@ -1,0 +1,7 @@
+// Write code below 💖
+
+const fahrenTemp = 37;
+
+let celsiusTemp = (fahrenTemp - 32)/(1.8);
+
+console.log("The temperature of Brooklyn, New York converted to celsius is " + celsiusTemp);

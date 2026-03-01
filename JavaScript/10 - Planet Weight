@@ -1,0 +1,9 @@
+// Write code below 💖
+
+const earthWeight = 134;
+
+let marsWeight = earthWeight * 0.38;
+
+console.log("My weight on earth " + earthWeight + " pounds.");
+
+console.log("\nMy weight on mars is " + marsWeight + " pounds.");

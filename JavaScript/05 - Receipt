@@ -1,0 +1,17 @@
+// Write code below 💖
+
+console.log("==================================");
+console.log("       POD MARKET RECEIPT          ");
+console.log("----------------------------------");
+console.log("          Order Details           ");
+console.log("----------------------------------");
+console.log("Item          Quantity      Price              ");
+console.log("----------------------------------");
+console.log("Sweet Tea       1           2.99");
+console.log("Pistachios      1           7.49");
+console.log("----------------------------------");
+console.log("Total                       10.48");
+console.log("==================================");
+
+
+

@@ -1,0 +1,16 @@
+// Write code below 💖
+
+function isPalindrome(string){
+  string = string.toLowerCase();
+  
+  let backwards = "";
+  for(let i = string.length-1; i >= 0; i--){
+    backwards += string[i];
+    
+  }
+
+return string === backwards;
+
+}
+
+console.log(isPalindrome("RaceCar"));

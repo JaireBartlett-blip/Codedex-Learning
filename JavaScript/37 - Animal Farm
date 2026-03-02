@@ -1,0 +1,39 @@
+// Write code below 💖
+
+ const pig = {
+   name: "Peppa",
+   type: "pig",
+   age: 7,
+   makeSound () {
+    console.log(this.name + " is a " + this.age + " year old " + this.type + " that goes oink!");
+   }
+ }
+
+
+pig.makeSound();
+
+
+
+ const sheep = {
+   name: "Mary",
+   type: "sheep",
+   age: 4,
+   makeSound () {
+    console.log(this.name + " is a " + this.age + " year old " + this.type + " that goes baaah!");
+   }
+ }
+
+sheep.makeSound();
+
+
+
+ const dog = {
+   name: "Buster",
+   type: "dog",
+   age: 10,
+   makeSound () {
+    console.log(this.name + " is a " + this.age + " year old " + this.type + " that goes woof!");
+   }
+ }
+
+dog.makeSound();

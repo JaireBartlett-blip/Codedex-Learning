@@ -1,0 +1,11 @@
+// Write code below 💖
+
+function relativityTheory(mass){
+  const lightSpeed = 299792458;
+  let E = mass * (lightSpeed ** 2);
+
+  return E;
+}
+
+
+console.log(relativityTheory(7))

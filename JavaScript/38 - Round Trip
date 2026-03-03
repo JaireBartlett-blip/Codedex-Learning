@@ -1,0 +1,67 @@
+// Write code below 💖
+
+const departTripTicket = {
+  name: "Jaire",
+  from: "Pennsylvania",
+  to: "Ontario",
+  businessClass: true,
+  leaveTime: 8,
+  arriveTime: 13,
+  upgrade(){
+    if (this.businessClass == false){
+      this.businessClass = true;
+    }else{
+      console.log("Your ticket is already business class!");
+    }
+  },
+
+  flightTime(){
+     if(this.arriveTime < this.leaveTime){
+      this.arriveTime += 12;
+      let flightTime = this.arriveTime - this.leaveTime;
+      console.log("This flight to " + this.to + " will take " +flightTime + " hours!");
+    }else{
+      let flightTime = this.arriveTime - this.leaveTime;
+    console.log("This flight to " + this.to + " will take " +flightTime + " hours!");
+    }
+  }
+
+
+
+}
+
+departTripTicket.upgrade();
+
+const returnTripTicket = {
+  name: "Jaire",
+  from: "Ontario",
+  to: "Pennsylvania",
+  businessClass: false,
+  leaveTime: 12,
+  arriveTime: 6, 
+  upgrade(){
+    if (this.businessClass == false){
+      this.businessClass = true;
+    }else{
+      console.log("Your ticket is already business class!");
+    }
+  },
+
+  flightTime(){
+    if(this.arriveTime < this.leaveTime){
+      this.arriveTime += 12;
+      let flightTime = this.arriveTime - this.leaveTime;
+      console.log("This flight to " + this.to + " will take " +flightTime + " hours!");
+    }else{
+      let flightTime = this.arriveTime - this.leaveTime;
+    console.log("This flight to " + this.to + " will take " +flightTime + " hours!");
+    }
+    
+
+
+  }
+
+}
+
+returnTripTicket.flightTime();
+
